@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+/* style.css */
+
+/* Gaya untuk layar kecil (max-width: 600px) */
+@media (max-width: 600px) {
+    #fibonacci, #volume {
+        max-width: 100%;
+    }
+
+    input[type="number"], button {
+        width: 100%;
+    }
+}
+
+/* Gaya untuk layar sedang (max-width: 800px) */
+@media (max-width: 800px) {
+    #fibonacci, #volume {
+        max-width: 80%;
+    }
+}
+
+/* Gaya untuk layar besar (min-width: 801px) */
+@media (min-width: 801px) {
+    #fibonacci, #volume {
+        max-width: 50%;
+    }
+}
+
+
+h1 {
+    color: #333;
+}
+h2{
+    color: rgb(230, 230, 47)
+}
+
+
+#fibonacci {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(41, 155, 143);
+    border-radius: 5px;
+}
+
+#volume {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #418fe7;
+    border-radius: 5px;
+}
+
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

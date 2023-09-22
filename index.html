@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Fibonacci dan Bangun Ruang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h3>Nama : Pande Putu Agus Sanjaya Putra </h3>
+        <h3>Student ID : 2215101020</h3>
+
+
+    <div id="fibonacci">
+        <h2>Calculate the Fibonacci Series</h2>
+        <input type="number" id="fib-input" placeholder="Enter the number of Fibonacci numbers">
+        <button onclick="calculateFibonacci()">Hitung</button>
+        <p>Result: <span id="fib-result"></span></p>
+    </div>
+
+    <div id="volume">
+        <select id = type>
+            <option value ="cube">Cube</option>
+            <option value ="block">Block</option>
+            <option value ="ball">Ball</option>
+            <option value ="cone">Cone</option>
+        </select>
+        <h2>Calculate the Volume of the Building Space</h2>
+        <input type="number" id="length" placeholder="Length">
+        <input type="number" id="width" placeholder="Width">
+        <input type="number" id="height" placeholder="height">
+        <button onclick="calculateVolume()">Hitung</button>
+        <p>Result: <span id="volume-result"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
